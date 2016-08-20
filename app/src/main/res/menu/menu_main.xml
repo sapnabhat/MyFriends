@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.sapna.myfriends.MainActivity">
+
+    <item
+        android:id="@+id/searchRecord"
+        android:orderInCategory="10"
+        android:title="@string/searchRecord"
+        android:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_search"
+        tools:ignore="AppCompatResource"/>
+
+    <item
+        android:id="@+id/addRecord"
+        android:orderInCategory="100"
+        android:title="@string/addRecord"
+        android:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_add"
+        tools:ignore="AppCompatResource"/>
+
+    <item
+        android:id="@+id/deleteDatabase"
+        android:orderInCategory="50"
+        android:title="@string/deleteRecord"
+        android:showAsAction="never"
+        tools:ignore="AppCompatResource"/>
+
+</menu>
